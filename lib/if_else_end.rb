@@ -1,9 +1,5 @@
-current_time = 
-Time.now 
-current_time.to_i 
-
-if current_time.even?
+if Time.now.to_i % 2 == 0 
   puts "Even!"
-else 
+else
   puts "Odd!"
 end
